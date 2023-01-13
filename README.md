@@ -1,4 +1,4 @@
-# sistema-integracao
+# app-vue-electron
 
 ## Project setup
 ```
