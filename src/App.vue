@@ -5,7 +5,19 @@
   </nav>
   <router-view/>
 </template>
+<script>
+export default {
+  props: {
+    msg: String
+  },
+  methods:{
 
+  },
+  mounted() {
+    this.$router.push('/')
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
